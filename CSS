@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+.logoImage {
+    height: 25px;
+}
+
+
+
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 10px;
+
+
+
+}
+
+a {
+    font-weight: bold;
+    font-size: 8px;
+    margin: 0px;
+}
+
+.whatsppicon {
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 100%;
+}
+
+.facebookicon {
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 100%;
+
+}
+
+.building-background {
+    background-image: url('https://i.ibb.co/YQpKgsx/heroimg.jpg');
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.heading1 {
+    width: 100px;
+    margin-top: 150px;
+
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-left: 28px;
+    font-size: 8px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, black, #808b96);
+}
+
+.second-background {
+    background-color: #b3b6b7;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 5px;
+
+}
+
+.roomimage {
+    height: 40px;
+
+    width: 80px;
+}
+
+.third-backrgound {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.third-card {
+    background-color: #e5e7e9;
+    padding: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 5px;
+
+
+
+
+
+}
+
+h2 {
+    margin-left: 2px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-style: none;
+    height: 15px;
+    width: 60px;
+    font-size: 5px;
+}
+
+.room-card {
+    text-align: left;
+    width: 80px;
+}
+
+.dining-card {
+    text-align: center;
+    width: 80px;
+}
+
+.pool-card {
+    text-align: right;
+    width: 80px;
+}
+
+.dummytext {
+    width: 25%;
+
+
+}
+
+
+
+@media (min-width:768px) {
+
+    .logoImage {
+        height: 50px;
+    }
+
+
+
+
+
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-right: 20px;
+
+
+
+    }
+
+    a {
+        font-weight: bold;
+        font-size: 15px;
+        margin: 8px;
+    }
+
+    .whatsppicon {
+        border-style: groove;
+        border-color: black;
+        border-width: 1px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 100%;
+    }
+
+    .facebookicon {
+        border-style: groove;
+        border-color: black;
+        border-width: 1px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 100%;
+
+    }
+
+    .building-background {
+        background-image: url('https://i.ibb.co/YQpKgsx/heroimg.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .heading1 {
+        width: 200px;
+        margin-top: 360px;
+
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 60px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        background-image: linear-gradient(to right, black, #808b96);
+    }
+
+    .second-background {
+        background-color: #b3b6b7;
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .roomimage {
+        height: 120px;
+
+        width: 180px;
+    }
+
+    .third-backrgound {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .third-card {
+        background-color: #e5e7e9;
+        padding: 20px;
+        color: black;
+        font-weight: 600;
+        font-size: 10px;
+
+
+
+
+
+    }
+
+    h2 {
+        margin-left: 26px;
+        margin-bottom: 40px;
+        color: black;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        font-weight: 600;
+        border-style: none;
+        height: 25px;
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .room-card {
+        text-align: left;
+        width: 180px;
+    }
+
+    .dining-card {
+        text-align: center;
+        width: 180px;
+    }
+
+    .pool-card {
+        text-align: right;
+        width: 180px;
+    }
+
+    .dummytext {
+        width: 25%;
+
+
+    }
+
+
+}
+
+@media (min-width:992px) {
+
+    .logoImage {
+        height: 70px;
+    }
+
+
+
+
+
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-right: 40px;
+
+
+
+    }
+
+    a {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 8px;
+    }
+
+    .whatsppicon {
+        border-style: groove;
+        border-color: black;
+        border-width: 1px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 100%;
+    }
+
+    .facebookicon {
+        border-style: groove;
+        border-color: black;
+        border-width: 1px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 100%;
+
+    }
+
+    .building-background {
+        background-image: url('https://i.ibb.co/YQpKgsx/heroimg.jpg');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .heading1 {
+        width: 290px;
+        margin: 30px;
+
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 80px;
+        font-size: 25px;
+        margin-bottom: 50px;
+        background-image: linear-gradient(to right, black, #808b96);
+    }
+
+    .second-background {
+        background-color: #b3b6b7;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .roomimage {
+        height: 200px;
+
+        width: 260px;
+    }
+
+    .third-backrgound {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .third-card {
+        background-color: #e5e7e9;
+        padding: 30px;
+        color: black;
+        font-weight: 600;
+        font-size: 13px;
+
+
+
+
+
+    }
+
+    h2 {
+        margin-left: 16px;
+        margin-bottom: 40px;
+        color: black;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        font-weight: 600;
+        border-style: none;
+        height: 35px;
+        width: 140px;
+        font-size: 12px;
+    }
+
+    .room-card {
+        text-align: left;
+        width: 260px;
+    }
+
+    .dining-card {
+        text-align: center;
+        width: 260px;
+    }
+
+    .pool-card {
+        text-align: right;
+        width: 260px;
+    }
+
+    .dummytext {
+        width: 25%;
+
+
+    }
+
+
+}
